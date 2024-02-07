@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Study Tool",
+  "description": "Replaces words with emojis.",
+  "version": "1.0",
+  "icons": {
+    "48": "icon.ico"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./study.js"]
+    }
+  ]
+}
