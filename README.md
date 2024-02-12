@@ -14,3 +14,4 @@ For now, when the user open any page and the extension, the subway surfur video 
 2. Click on Extention button and then click on Study Tool.
    
 # License
+studyTool is an open-source extension licensed under the GNU general public license. Refer to the LICENSE file for more detail.
