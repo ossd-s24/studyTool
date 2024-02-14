@@ -19,6 +19,13 @@
       "run_at": "document_idle"
     }
   ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "f857892a-0135-414d-8325-8fac80cf94d2",
+      "strict_min_version": "42.0",
+      "strict_max_version": "50.*"
+    }
+  },
   "icons": {
     "48": "icon.ico"
   }
