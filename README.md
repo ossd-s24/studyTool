@@ -11,7 +11,8 @@ For now, when the user open any page and the extension, the subway surfur video 
 
 # How to use
 1. Open a new web.
-2. Click on Extention button and then click on Study Tool.
+2. Click on Extention button and then click on Study Tool. 
+3. Click focus how ever many times you need to focus
    
 # License
 studyTool is an open-source extension licensed under the GNU general public license. Refer to the LICENSE file for more detail.
