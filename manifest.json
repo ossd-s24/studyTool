@@ -1,16 +1,25 @@
 {
   "manifest_version": 3,
   "name": "Study Tool",
-  "description": "Replaces words with emojis.",
   "version": "1.0",
-  "icons": {
-    "48": "icon.ico"
+  "description": "Helps you study",
+  "permissions": [],
+  "host_permissions": ["*://*/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.ico",
+      "48": "icon.ico"
+    }
   },
-
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["./temp.js"]
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
     }
-  ]
+  ],
+  "icons": {
+    "48": "icon.ico"
+  }
 }
