@@ -7,7 +7,7 @@ For now, when the user open any page and the extension, the subway surfur video 
 # Installation
 1. In Firefox type in "about::debugging" in top link bar.
 2. Click on This Firefox
-3. Click on Load Temporary Add On, choose study.js in local file.
+3. Click on Load Temporary Add On, choose contentScript.js in local file.
 
 # How to use
 1. Open a new web.
