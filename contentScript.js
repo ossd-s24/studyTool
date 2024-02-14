@@ -11,6 +11,8 @@
     "https://www.youtube.com/embed/OTWYCHNTA3A?si=ubeMZJYm_buvBn12",
     "https://www.youtube.com/embed/TzpAYv0AP68?si=zMeu7qC8TaK1MHVd",
     "https://www.youtube.com/embed/IP-27zXA7_E?si=-VVa8KQgAUWRdUGH",
+    "https://www.youtube.com/embed/xpVQ3l5P0A4?si=P2urKLp42niuuxHM",
+    "https://www.youtube.com/embed/zfT2ekF7fXo?si=fCmxuTY3SfTdB2bu"
   ];
   let currentIndex = 0;
 
@@ -77,16 +79,15 @@
 
   function playVideo() {
     const iframes = document.getElementsByTagName("iframe");
-    // Attempt to play the first video found
+
     if (iframes.length > 0) {
       const iframe = iframes[0];
-      // Construct the play command URL for YouTube for example
+
       const src = iframe.src.includes("?") ? "&autoplay=1" : "?autoplay=1";
-      iframe.src += src; // Attempt to trigger autoplay by modifying the src
+      iframe.src += src;
     }
   }
 
-  // Listen for messages from the popup
   browser.runtime.onMessage.addListener(function (
     message,
     sender,
@@ -94,7 +95,7 @@
   ) {
     if (message.action === "modifyLayout") {
       modifyPageLayout();
-      playVideo(); // Attempt to play the video after modifying the layout
+      playVideo();
     }
   });
 })();
