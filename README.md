@@ -8,9 +8,16 @@ For now, when the user open any page and the extension, the subway surfur video 
 3. Click on Load Temporary Add On, choose contentScript.js in local file.
 
 # How to use
+
+## Dev
 1. Open a new web.
 2. Click on Extention button and then click on Study Tool. 
 3. Click focus how ever many times you need to focus
-   
+
+## Prod
+StudyTool is now Live on the mozilla extension marketplace!
+[Download Here](https://addons.mozilla.org/en-US/firefox/addon/study-tool/)
+
+
 # License
 studyTool is an open-source extension licensed under the GNU general public license. Refer to the LICENSE file for more detail.
