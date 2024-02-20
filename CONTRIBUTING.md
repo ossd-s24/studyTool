@@ -2,6 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
+Wait for issue approval and then it will be assigned to you/opened to the public!
 
 ## Pull Request Process
 
